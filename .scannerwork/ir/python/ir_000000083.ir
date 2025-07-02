@@ -1,0 +1,34 @@
+
+"division by zero"bool
+
+0int
+	"S3518"bool
+
+"a"bool
+ "Cannot divide by zero"str
+%"Divide two numbers safely."stra (b ("J*
+(
+
+ 
+("
+#binop ==#2==:Bbool"
+
+ 
+( *
+ 
+("B.
+,
+ (1"
+ValueError*:B
+ValueError2
+ (1"Œ*
+(
+ ("
+#binop !=#2!=:Bbool 
+
+ ("
+#assert#:	
+*
+(
+ ("#dependent-value#*:
+ (*>/Users/colinmueller/source/sonar-issue-repro/src/calculator.py

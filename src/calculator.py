@@ -36,3 +36,9 @@ class Calculator:
         # old_result = value * 3
         
         return value * 4
+
+
+def new_feature():
+    """New feature added by coworker."""
+    from .helper import get_message
+    return get_message()

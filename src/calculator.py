@@ -6,8 +6,9 @@ def add(a, b):
 
 
 def divide(a, b):
-    """Divide two numbers."""
-    # S3518: Division by zero issue (no zero check)
+    """Divide two numbers safely."""
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
     return a / b
 
 
@@ -36,3 +37,9 @@ class Calculator:
         # old_result = value * 3
         
         return value * 4
+
+
+def new_feature():
+    """New feature added by coworker."""
+    from .helper import get_message
+    return get_message()

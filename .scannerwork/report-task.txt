@@ -1,0 +1,7 @@
+organization=fiveshotsofespresso2
+projectKey=fiveshotsofespresso_sonar-issue-repro
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.65164
+dashboardUrl=https://sonarcloud.io/dashboard?id=fiveshotsofespresso_sonar-issue-repro
+ceTaskId=AZfKQdsytMLOVDyWfSbs
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZfKQdsytMLOVDyWfSbs
